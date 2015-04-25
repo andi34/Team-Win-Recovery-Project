@@ -313,7 +313,7 @@
 		<variable name="alt_lock" value="0" persist="1" />
 		<variable name="inject_theme" value="0" persist="1" />
 		<variable name="auto_flash_repack" value="0" persist="1" />
-		<variable name="aromafm" value="0" persist="1" />
+		<variable name="aromafm" value="0" persist="0" />
 		<variable name="auto_generate" value="0" persist="1" />
 		<variable name="show_cpu_temp" value="0" persist="1" />
 		<variable name="center_clock" value="0" persist="1" />
