@@ -310,7 +310,7 @@
 		<!--theme settings-->
 		<variable name="theme_version" value="286X_v1" />
 		<variable name="use_flashify" value="0" persist="1" />
-		<variable name="alt_lock" value="0" persist="1" />
+		<variable name="alt_lock" value="1" persist="0" />
 		<variable name="inject_theme" value="0" persist="1" />
 		<variable name="auto_flash_repack" value="0" persist="1" />
 		<variable name="aromafm" value="0" persist="0" />
