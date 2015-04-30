@@ -4,7 +4,7 @@
 	<details>
 		<resolution width="1080" height="1920" />
 		<author>z31s1g</author>
-		<title>TWRP Materialised Dark</title>
+		<title>TWRP Materialised Light</title>
 		<description>Material Design theme for TWRP recovery</description>
 		<preview>preview.jpg</preview>
 	</details>
@@ -413,21 +413,21 @@
 		<variable name="back_button_x" value="78" />
 		<variable name="slideout_button_x" value="684" />
 		
-		<variable name="background" value="#222222FF" />
+		<variable name="background" value="#F3F3F3FF" />
 		<variable name="darktransparent" value="#000000bb" />
 		<variable name="lightransparent" value="#00000033" />
 		<variable name="transparent" value="#00000000" />
-		<variable name="text" value="#E3E3E3FF" />
-		<variable name="text_actionbar" value="#292D2FFF" />
-		<variable name="text_button" value="#E3E3E3FF" />
-		<variable name="text_light" value="#E3E3E3FF" />
-		<variable name="text_dark" value="#A7A7ADFF" />
-		<variable name="text_highlight" value="#607D8BFF" />
+		<variable name="text" value="#3B3B3BFF" />
+		<variable name="text_actionbar" value="#DEF3F7FF" />
+		<variable name="text_button" value="#3B3B3BFF" />
+		<variable name="text_light" value="#F3F3F3FF" />
+		<variable name="text_dark" value="#6F6F6FFF" />
+		<variable name="text_highlight" value="#03A9F4FF" />
 		<variable name="text_success" value="#68B60B" />
 		<variable name="text_fail" value="#FF0101" />
-		<variable name="highlight_color" value="#22222266"  />
-		<variable name="console_foreground" value="#E3E3E3FF" />
-		<variable name="linecolor" value="#383838FF" />
+		<variable name="highlight_color" value="#F3F3F366"  />
+		<variable name="console_foreground" value="#3B3B3BFF" />
+		<variable name="linecolor" value="#D0D0D0FF" />
 		<variable name="warning" value="#F8F8A0FF" />
 		<variable name="error" value="#FF4040FF" />
 		<variable name="highlight" value="#03A9F4FF" />
@@ -816,7 +816,7 @@
 	</templates>
 
 	<include>
-		<xmlfile name="dark.xml" />
+		<xmlfile name="light.xml" />
 	</include>
 
 </recovery>
