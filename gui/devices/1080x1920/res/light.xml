@@ -1491,7 +1491,7 @@
 				<actions>
 					<action function="cmd">
 					i=/sdcard/TWRP/flashify;
-					rm $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
+					rm -f $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
 					</action>
 					<action function="cmd">
 					cd "/data/local/AIK-mobile";
@@ -1543,7 +1543,7 @@
 				<actions>
 					<action function="cmd">
 					i=/sdcard/TWRP/flashify;
-					rm $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
+					rm -f $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
 					</action>
 					<action function="cmd">
 					cd "/data/local/AIK-mobile";
@@ -1591,7 +1591,7 @@
 				<actions>
 					<action function="cmd">
 					i=/sdcard/TWRP/flashify;
-					rm $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
+					rm -f $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
 					</action>
 					<action function="cmd">
 					cd "/data/local/AIK-mobile";
@@ -2583,7 +2583,7 @@
 					<action function="set">tw_image_type=none</action>
 					<action function="cmd">
 					i=/sdcard/TWRP/flashify;
-					rm $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
+					rm -f $i/boot*.img $i/*recovery*.img $i/radio*.img $i/modem*.img;
 					</action>
 					<action function="set">tw_back=install_image</action>
 					<action function="set">tw_filecheck=/sdcard/TWRP/flashify/flashify.zip</action>
