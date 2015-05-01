@@ -1401,6 +1401,7 @@
 				<listitem name="This function uses the">1</listitem>
 				<listitem name="mobile AIK (Android Image Kitchen)">2</listitem>
 				<listitem name="to replace the TWRP splash screen (curtain)">2</listitem>
+				<listitem name="and the stock recovery theme (optional)">2</listitem>
 				<listitem name="inside the recovery.img file.">2</listitem>
 				<listitem name="">2</listitem>
 				<listitem name="The mobile AIK is not part of the theme">2</listitem>
@@ -1417,8 +1418,14 @@
 				<listitem name="must match the screen resolution,">2</listitem>
 				<listitem name="e.g. &quot;1920x1080&quot; for full HD devices.">2</listitem>
 				<listitem name="">2</listitem>
+				<listitem name="If the option &quot;Include theme&quot; is selected,">2</listitem>
+				<listitem name="the theme will also be copied into the">2</listitem>
+				<listitem name="unpacked recovery image, replacing the stock">2</listitem>
+				<listitem name="TWRP theme.">2</listitem>
+				<listitem name="">2</listitem>
 				<listitem name="The recovery will then be repacked to">2</listitem>
-				<listitem name="a &quot;custom_splash_twrp.img&quot;">2</listitem>
+				<listitem name="a &quot;custom_splash_twrp.img&quot; (splash only)">2</listitem>
+				<listitem name="or to a &quot;custom_theme_twrp.img&quot; (theme)">2</listitem>
 				<listitem name="and saved to the same folder as the">2</listitem>
 				<listitem name="stock recovery.">2</listitem>
 				<listitem name="">2</listitem>
