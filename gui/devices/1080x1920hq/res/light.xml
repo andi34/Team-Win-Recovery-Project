@@ -9757,6 +9757,7 @@
 					cp &quot;%tw_filename%&quot; /sdcard/TWRP/theme/ui.zip;
 					chown -R media_rw:media_rw /sdcard/TWRP/theme
 					</action>
+					<action function="overlay"></action>
 					<action function="sleep">1000</action>
 					<action function="reload"></action>
 				</actions>
