@@ -9765,7 +9765,7 @@
 					chown -R media_rw:media_rw /sdcard/TWRP/theme
 					</action>
 					<action function="overlay"></action>
-					<action function="sleep">1000</action>
+					<!--action function="sleep">1000</action-->
 					<action function="reload"></action>
 				</actions>
 			</object>
@@ -10080,7 +10080,7 @@
 					fi
 					</action>
 					<action function="overlay"></action>
-					<action function="sleep">500</action>
+					<!--action function="sleep">500</action-->
 					<action function="reload"></action>
 				</actions>
 			</object>
