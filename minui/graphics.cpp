@@ -525,7 +525,7 @@ void gr_flip() {
   gr_draw = gr_backend->Flip();
 }
 
-int gr_init(void)
+int gr_init_real(void)
 {
   gr_init_font();
 
@@ -576,6 +576,12 @@ int gr_init(void)
   gr_flip();
 
   return 0;
+}
+
+int gr_init(void) {
+    gr_init_real();
+    gr_init_real();
+    return 0;
 }
 
 void gr_exit() {
